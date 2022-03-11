@@ -1,0 +1,51 @@
+#mission-vission{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+#mission-vission .card{
+    width:99%;
+}
+#mission-vission .card .card-header{
+    padding:0px !important;
+}
+#mission-vission .card .card-header ul{
+    list-style-type: none;
+    width:100%;
+    padding: 0px !important;
+}
+#mission-vission .card .card-header ul li{
+    float: left;
+    width:33.3%;
+    text-align:center;
+    padding: 20px;
+    background-color: #015935;
+}
+#mission-vission .card .card-header ul li:hover{
+    background-color: aquamarine;
+}
+#mission-vission .card .card-header ul li:hover>a{
+    color: #015935;
+}
+#mission-vission .card .card-header ul .unactive a{
+    text-decoration: none;
+    color:#FFFF !important;
+    font-size: 18px;
+    font-weight: 800;
+}
+#mission-vission .card .card-header ul .active{
+    background-color:#f3faf4;    
+}
+#mission-vission .card .card-header ul .active a{
+    color:#015935 !important;
+    font-size: 18px;
+    font-weight: 800;
+}
+#mission-vission .card .card-body p{
+    font-size: 20px;
+    line-height: 35px;
+}
+#mission-vission .card .card-body h3{
+    color:#015935 !important;
+    font-size: 23px;
+    font-weight: 500;
+}
